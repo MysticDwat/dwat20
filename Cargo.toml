@@ -1,0 +1,17 @@
+[package]
+name = "dwat20"
+version = "0.1.0"
+edition = "2021"
+authors = ["William Hottenstein <whottenstein2019@my.fit.edu>"]
+license = "MIT"
+description = "A Rust crate for emulating dice rolls."
+readme = "README.md"
+homepage = "https://github.com/MysticDwat/dwat20"
+repository = "https://github.com/MysticDwat/dwat20"
+keywords = ["gamedev", "game", "random"]
+categories = ["game-development"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
